@@ -26,7 +26,6 @@ export default class Card {
     this.descCard.appendChild(this.h3Card);
     this.descCard.appendChild(this.btnLike);
 
-    // Event listeners
     this.btnLike.addEventListener('click', this.likeCard);
     this.btnImgCard.addEventListener('click', this.deleteCard);
     this.imgCard.addEventListener('click', this.showCard);
