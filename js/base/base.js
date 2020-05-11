@@ -1,0 +1,20 @@
+export const elements = {
+  cards: document.querySelector('.places-list'),
+  userInfoName: document.querySelector('.user-info__name'),
+  userInfoJob: document.querySelector('.user-info__job'),
+  formPopupAddCard: document.querySelector("#add-card"),
+  formPopupProfile: document.querySelector("#profile"),
+  bigSizeImage: document.querySelector("#big-size-image"),
+  forms: document.forms,
+  popupImage: document.querySelector('.popup__image'),
+  button: document.querySelector(".user-info__button"),
+  buttonEditForm: document.querySelector(".user-info__edit"),
+  crossButton: document.querySelector("#add-card .popup__close"),
+  buttonEdit: document.querySelector(".button.user-info__edit"),
+  crossButtonEdit: document.querySelector("#profile .popup__close"),
+  crossButtonBigImage: document.querySelector("#big-size-image .popup__close"),
+  formErrorProfileName: document.querySelector("#error-profile-name"),
+  formErrorProfileJob: document.querySelector("#error-profile-job"),
+  formErrorCardName: document.querySelector("#error-card-name"),
+  formErrorCardLink: document.querySelector("#error-card-link")
+}
